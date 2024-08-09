@@ -1,0 +1,23 @@
+.menu {
+  color: yellow;
+  font-size: 25px;
+}
+.menu:hover {
+  color: rgba(255, 255, 255, 0.17);}
+
+  .xyz
+  {background-color: rgb(60, 255, 0);}
+
+
+button {
+  background-color: red;
+}
+button:after {
+  content: attr(name);
+  display: block;
+  text-transform: uppercase;
+}
+
+.contact-us-form {
+  border: 1px dashed;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,262 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.navigation-bar-container115 {
+  background-color: #444;
+}
+
+.navigation-bar-root-class-name3 a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navigation-bar-root-class-name3 a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card {
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+}
+
+.thq-section-padding {
+  padding: 20px;
+}
+
+.explore-more-root-class-name {
+  background-color: #eee;
+}
+
+.explore-more-content35 {
+  text-align: center;
+}
+
+.contact-text04 {
+  color: #555;
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.contact-text05 {
+  color: #777;
+  font-size: 16px;
+}
+
+.contact-form3-contact91 {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form3-content48 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form3-section-title4 {
+  margin-bottom: 20px;
+}
+
+.contact-form3-text630,
+.contact-form3-text631,
+.contact-form3-text632,
+.contact-form3-text633,
+.contact-form3-text635,
+.contact-form3-text636 {
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.thq-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.thq-input:focus {
+  border-color: #007bff;
+}
+
+.thq-checkbox {
+  margin-right: 10px;
+}
+
+.thq-button-filled {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.thq-button-filled:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.footer-footer71 {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links4 a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-links4 a:hover {
+  text-decoration: underline;
+  color: #ddd;
+}
+
+.footer-credits1 {
+  margin-top: 20px;
+}
+
+.footer-container118 {
+  margin-bottom: 10px;
+}
+
+.thq-divider-horizontal {
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.contact-us-container106 {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.contact-us-content36 {
+  text-align: center;
+}
+
+.contact-us-content37 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-us-content37 p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-us-container107, .contact-us-container109 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-us-image14, .contact-us-image15 {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.contact-us-image14:hover, .contact-us-image15:hover {
+  transform: scale(1.05);
+}
+
+.thq-button-flat {
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.thq-button-flat:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.contact-text12, .contact-text13, .contact-text14, .contact-text15, .contact-text16 {
+  color: #555;
+}
+
+.contact-text15, .contact-text13 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-text16 {
+  font-size: 16px;
+}
+
+.thq-body-small {
+  font-size: 14px;
+}
+
+.thq-heading-2 {
+  font-size: 24px;
+}
+
+.thq-heading-3 {
+  font-size: 20px;
+}
+
+.thq-body-large {
+  font-size: 16px;
+}
+
+.contact-form3-button14 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form3-button14:hover {
+  background-color: #007bff;
+  transform: scale(1.05);
+}

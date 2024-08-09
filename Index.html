@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/kemara-206x103.png" type="image/x-icon">
+  <meta name="description" content="Discover the fascinating world of the Blue marlin, a resilient and adaptable wild cat native to North America. Explore its habitat, behavior, and stunning visuals.">
+  <title>Blue Marlin</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/web/assets/micons2/icons2.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/add/css/additional.css?v=7Be4ku"><link rel="stylesheet" href="assets/add/css/additional.css?v=7Be4ku" type="text/css">
+  <style>
+    .fixed-navbar {
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1001;
+    }
+
+    .lightbox-content {
+      position: relative;
+      max-width: 80%;
+      max-height: 80%;
+      overflow: hidden;
+    }
+
+    .lightbox img, .lightbox video {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .close-lightbox {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .lightbox-slide {
+      display: none;
+    }
+
+    .lightbox-slide.active {
+      display: block;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <script>
+    $(document).ready(function () {
+      var navbar = $('.navbar');
+      var navbarOffset = navbar.offset().top;
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > navbarOffset) {
+          navbar.addClass('fixed-navbar');
+        } else {
+          navbar.removeClass('fixed-navbar');
+        }
+      });
+
+      var lightbox = $('.lightbox');
+      var lightboxItems = $('.lightbox-item');
+      var currentSlideIndex = 0;
+
+      function showSlide(index) {
+        $('.lightbox-slide').removeClass('active');
+        $('.lightbox-slide').eq(index).addClass('active');
+      }
+
+      lightboxItems.click(function () {
+        currentSlideIndex = lightboxItems.index(this);
+        showSlide(currentSlideIndex);
+        lightbox.fadeIn();
+      });
+
+      $('.close-lightbox').click(function () {
+        lightbox.fadeOut();
+      });
+
+      lightbox.click(function (event) {
+        if ($(event.target).closest('.lightbox-content').length === 0) {
+          lightbox.fadeOut();
+        }
+      });
+
+      $(document).keydown(function (e) {
+        if (e.key === "Escape") {
+          lightbox.fadeOut();
+        }
+      });
+    });
+  </script>
+
+  <section data-bs-version="5.1" class="menu menu2 cid-ujBS6e5XEP" once="menu" id="menu-5-ujBS6e5XEP">
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg fixed-navbar">
+      <div class="container">
+        <button class="button" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+            <li class="nav-item">
+              <a class="menu" href="index.html#hero-15-ujBS6e5ISR">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu" href="Honesty.html#header19-9" aria-expanded="false">Honesty Declaration</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu" href="About.html#article13-b">About</a>
+            </li>
+          </ul>
+          <div class="navbar-buttons mbr-section-btn">
+            <a class="menu" href="Contact Us.html#contact-form-3-ujBS6ebLaC">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section data-bs-version="5.1" class="header18 cid-ujBS6e5ISR mbr-fullscreen" data-bg-video="BlueMarlin.Mp4" id="hero-15-ujBS6e5ISR">
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="content-wrap col-12 col-md-12">
+          <h1 class="mbr-text mbr-fonts-style mb-3 display-7"><strong>Blue Marlin</strong></h1>
+          <p class="mbr-text mbr-fonts-style mb-3 display-7">Dive into the thrilling realm of the majestic blue marlin, the ocean's powerful and swift predator</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="article15 cid-ujBS6e6OCn" id="about-us-15-ujBS6e6OCn">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md">
+          <h6 class="mbr-text mbr-fonts-style mb-3 display-7">
+            <strong>Dive into the depths and discover the blue marlin, the ocean's most majestic and powerful swimmer!!</strong>
+          </h6>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <p class="mbr-text mbr-fonts-style mb-3 display-7">The blue marlin (Makaira nigricans) is a large and powerful fish found in tropical and subtropical waters of the Atlantic, Pacific, and Indian Oceans. Known for its striking cobalt blue color and long, spear-like bill, it can reach lengths of up to 14 feet and weigh over 1,800 pounds.</p>
+          <p class="mbr-text mbr-fonts-style mb-3 display-7">Blue marlins are fast swimmers, capable of reaching speeds up to 50 miles per hour. They are carnivorous, feeding on fish like tuna and mackerel. These solitary creatures are highly prized in sport fishing, often representing a significant challenge due to their size and strength.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="features03 cid-ujBS6e6cIC" id="features-7-ujBS6e6cIC">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 content-head"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="item features-image col-12 col-md-6 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <img src="bluemarlin2.jpg" alt="Image Gallery" title="" class="lightbox-item">
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mt-0 mb-2 display-5"><strong>Noticable Glimpses</strong></h5>
+            </div>
+          </div>
+        </div>
+        <!-- Add more items for slideshow as needed -->
+        <div class="item features-image col-12 col-md-6 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <img src="bluemarlin3.jpg" alt="Image Gallery" title="" class="lightbox-item">
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mt-0 mb-2 display-5"><strong>Glimpses of Blue Marlin</strong></h5>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox">
+    <div class="lightbox-content">
+      <span class="close-lightbox">&times;</span>
+      <div class="lightbox-slide">
+        <img src="bluemarlin2.jpg" alt="Blue Marlin Image">
+      </div>
+      <div class="lightbox-slide">
+        <img src="bluemarlin3.jpg" alt="Another Blue Marlin Image">
+      </div>
+      <!-- Add more slides as needed -->
+    </div>
+  </div>
+</body>
+</html>

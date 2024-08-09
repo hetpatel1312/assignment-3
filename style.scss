@@ -1,0 +1,30 @@
+// Variables
+$menu-text-color: yellow;
+$menu-text-hover-color: rgba(255, 255, 255, 0.17);
+$button-bg-color: red;
+$form-border-style: dashed;
+
+// Menu styles
+.menu{
+  color: $menu-text-color;
+
+  &:hover {
+    color: $menu-text-hover-color;
+  }
+}
+
+// Button styles
+button {
+  background-color: $button-bg-color;
+
+  &:after {
+    content: attr(name);
+    display: block;
+    text-transform: uppercase;
+  }
+}
+
+// Contact Us Form styles
+.contact-us-form {
+  border: 1px $form-border-style;
+}

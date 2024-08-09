@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact - Blue Marlin </title>
+    <meta property="og:title" content="Contact - Blue Marlin)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+      html {  
+        line-height: 1.15;}body {  
+          margin: 0;}* {  
+            box-sizing: border-box;  
+            border-width: 1px;  
+            border-style: dashed;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  
+              margin: 0;  
+              padding: 0;}button {  
+                background-color: transparent;}button,input,optgroup,select,textarea {  
+                  font-family: inherit;  
+                  font-size: 100%;  
+                  line-height: 1.15;  
+                  margin: 0;}button,select {  
+                    text-transform: none;}button,[
+                    type="button"],[
+                    type="reset"],[
+                    type="submit"]button::-moz-focus-inner,[
+                    type="button"]::-moz-focus-inner,[
+                    type="reset"]::-moz-focus-inner,[
+                    type="submit"]::-moz-focus-inner {  
+                      border-style: none;  
+                      padding: 0;}button:-moz-focus,[
+                      type="button"]:-moz-focus,[
+                      type="reset"]:-moz-focus,[
+                      type="submit"]:-moz-focus {  
+                        outline: 1px dotted ButtonText;}a {  
+                          color: inherit;  
+                          text-decoration: inherit;}input {  
+                            padding: 2px 4px;}img {  
+                              display: block;}html { 
+                                scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"/>
+    <link
+      rel="shortcut icon"
+      href="public/kemara1.png"
+      type="icon/png"
+      sizes="32x32"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"/>t
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"/>
+  </head>
+  <script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const firstName = document.querySelector('#contact-form-3-firstname').value.trim();
+      const lastName = document.querySelector('#contact-form-3-lastname').value.trim();
+      const email = document.querySelector('#contact-form-3-email').value.trim();
+      const phone = document.querySelector('#contact-form-3-phone').value.trim();
+      const date = document.querySelector('#contact-form-3-date').value.trim();
+      const message = document.querySelector('#contact-form-3-message').value.trim();
+
+      if (!firstName || !lastName || !email || !phone || !date || !message) {
+        alert('Please fill in all fields');
+        return;
+      }
+
+      if (!/^[a-zA-Z]+$/.test(firstName)) {
+        alert('Please lengthen this text to 5 characters or more (you are currently using "" characters).');
+        return;
+      }
+
+      if (!/^[a-zA-Z]+$/.test(lastName)) {
+        alert('Please lengthen this text to 5 characters or more (you are currently using "" characters).');
+        return;
+      }
+
+      if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email)) {
+        alert('Please include an @ in your email address');
+        return;
+      }
+
+      if (!/^\(\d{3}\) \d{3}-\d{4}$/.test(phone)) {
+        alert('Invalid phone number');
+        return;
+      }
+
+      if (!/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(date)) {
+        alert('Invalid date');
+        return;
+      }
+
+      if (!/^[a-zA-Z]+$/.test(message)) {
+        alert('Please lengthen this text to 50 characters (you are currently using "" characters).');
+        return;
+      }
+      if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(checkbox)) {
+        alert('Please check this box if you want to proceed');
+        return;
+      }
+
+      alert('Form submitted successfully');
+    });
+  </script>
+  <body>
+    <link rel="stylesheet" href="Editing.css" />
+    <div>
+      <link href="Editing.css" rel="stylesheet" />
+      <div class="contact-container">
+        <header
+          class="navigation-bar-container115 navigation-bar-root-class-name3">
+          <header
+            data-thq="thq-navbar"
+            class="navigation-bar-navbar-interactive1">
+           
+            <div data-thq="thq-navbar-nav" class="navigation-bar-desktop-menu1">
+              <nav class="navigation-bar-links3">
+                <a href="index.html" class="navigation-bar-link11">
+                  <fragment>
+                    <span class="contact-text02 thq-link thq-body-small">
+                      Home
+                    </span>
+                  </fragment>
+                </a>
+                <a href="honesty-declaration.html" class="navigation-bar-link41">
+                  <fragment>
+                    <span class="contact-text03 thq-link thq-body-small">
+                      Honesty Declaration
+                    </span>
+                </span>
+                <a href="about.html" class="navigation-bar-link41">
+                  <fragment>
+                    <span class="contact-text03 thq-link thq-body-small">
+                      About
+                    </span>
+                  </fragment>
+                </span>
+                <a href="contact.html" class="navigation-bar-link41">
+                  <fragment>
+                    <span class="contact-text03 thq-link thq-body-small">
+                      Contact Us
+                    </span>
+                  </fragment>
+                </a>
+              </nav>
+            </div>
+            <div
+              data-thq="thq-mobile-menu"
+              class="navigation-bar-mobile-menu1">
+          </div>
+          </header>
+        </header>
+        <div class="thq-section-padding explore-more-root-class-name">
+          <div class="thq-section-max-width">
+            <div class="explore-more-accent2-bg09">
+              <div class="explore-more-accent1-bg09">
+                <div class="explore-more-container105">
+                  <div class="explore-more-content35">
+                    <span>
+                      <fragment>
+                        <span class="contact-text04 thq-heading-2">
+                          Join our ever growing community and make a difference!
+                        </span>
+                      </fragment>
+                    </span>
+                    <p>
+                      <fragment>
+                        <span class="contact-text05 thq-body-large">
+                          If u want to know more information then fill this form and feel free to submit it.
+                        </span>
+                      </fragment>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "contact-card">
+        <div class="contact-form3-contact91 thq-section-padding">
+          <div
+            class="thq-section-max-width thq-flex-row contact-form3-max-width28">
+            <div class="contact-form3-content48 thq-flex-column">
+              <div class="contact-form3-section-title4 thq-card">
+                <h2>
+                  <fragment>
+                    <span class="contact-text09 thq-heading-2">Contact us</span>
+                  </fragment>
+                </h2>
+                <div class="contact-form3-content49">
+                  <span>
+                    <fragment>
+                      <span class="contact-text08 thq-body-small">
+                       Thankful to see your feedback. we will reply you as soon as possible.&nbsp;
+                      </span>
+                    </fragment>
+                  </span>
+                </div>
+              </div>
+                <form 
+              action="https://formspree.io/f/mnnadpbq"
+              method="POST"
+              class="contact-form3-form1 thq-card">
+                <div class="contact-form3-input4">
+                  <label
+                    for="contact-form-3-firstname"
+                    class="contact-form3-text630 thq-body-small">
+                    First Name
+                  </label>
+                  <input
+                    type="text"
+                    id="contact-form-3-firstname"
+                    placeholder="First Name"
+                    required="true"
+                    name="First Name"
+                    minlength="5"
+                    class="thq-input"/>
+                </div>
+                <label
+                  for="contact-form-3-lastname"
+                  class="contact-form3-text631 thq-body-small">
+                  Last Name
+                </label>
+                <input
+                  type="text"
+                  id="contact-form-3-lastname"
+                  placeholder="Last Name"
+                  required="true"
+                  name="Last Name"
+                  minlength="5"
+                  class="thq-input"/>
+                <div class="contact-form3-input5">
+                  <label
+                    for="contact-form-3-email"
+                    class="contact-form3-text632 thq-body-small">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="contact-form-3-email"
+                    required="true"
+                    placeholder="Email"
+                    name="Email"
+                    pattern="+@gmail.com"
+                    class="thq-input"/>
+                </div>
+                <label
+                  for="contact-form-3-phone"
+                  class="contact-form3-text633 thq-body-small">
+                  Phone
+                </label>
+                <input
+                  type="Phone"
+                  id="contact-form-3-phone"
+                  required="true"
+                  placeholder="(123)4567890"
+                  name="Phone"
+                  minlength="10"
+                  maxlength="12"
+                  class="thq-input"/>
+                <label>
+                  <fragment>
+                    <span class="contact-text10">
+                      Date
+                    </span>
+                  </fragment>
+                </label>
+                <input
+                  type="date"
+                  id="contact-form-3-date"
+                  required="true"
+                  placeholder="date"
+                  name="Date"
+                  class="thq-input"/>
+                <div class="contact-form3-container140">
+                  <label
+                    for="contact-form-3-message"
+                    class="contact-form3-text635 thq-body-small">
+                    Message
+                  </label>
+                </div>
+                <input
+                  type="message"
+                  id="contact-form-3-message"
+                  required="true"
+                  name="Message"
+                  placeholder="Message"
+                  rows="3"
+                  minlength="50"
+                  maxlength="300"
+                  class="contact-form3-text-input17 thq-input"/>
+                <div class="contact-form3-checkbox4">
+                  <input
+                    type="checkbox"
+                    id="contact-form-3-check"
+                    checked="true"
+                    required="true"
+                    class="thq-checkbox"/>
+                  <label
+                    for="contact-form-3-check"
+                    class="contact-form3-text636 thq-body-small">
+                    I have read and agreed to the Terms & Conditions
+                  </label>
+                </div>
+                <button
+                  type="submit"
+                  class="contact-form3-button14 thq-button-filled">
+                  <span>
+                    <fragment>
+                      <span class="contact-text07 thq-body-small">Submit</span>
+                    </fragment>
+                  </span>
+                </button>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="contact-us-container106 thq-section-padding contact-us-root-class-name">
+          <div class="contact-us-max-width23 thq-section-max-width">
+            <div class="contact-us-content36 thq-flex-row">
+              <div class="contact-us-content37">
+                <h2>
+                  <fragment>
+                    <span class="contact-text14 thq-heading-2">Contact Us</span>
+                  </fragment>
+                </h2>
+                <p>
+                  <fragment>
+                    <span class="contact-text11 thq-body-large">
+                      This fish aquarium is very peaceful and have lots of marine animals and is owned and managed by DDH.
+                    </span>
+                  </fragment>
+                </p>
+              </div>
+            </div>
+          
+
+
+             
+              <div class="contact-us-container109">
+                <img
+                  
+             src="bluemarlin6.jpeg"
+                  class="contact-us-image15 thq-img-ratio-16-9"/>
+                <h3>
+                  <fragment>
+                    <span class="contact-text13 thq-heading-3">
+                      info@DDH.ca
+                    </span>
+                  </fragment>
+                </h3>
+                <p>
+                  <fragment>
+                    <span class="contact-text12 thq-body-large">
+                     If any queries, send us an email
+                    </span>
+                  </fragment>
+                </p>
+                <div class="contact-us-container110">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+            <div class="footer-credits1">
+              <div class="thq-divider-horizontal"></div>
+              <div class="footer-row4">
+                <div class="footer-container118">
+                  <span class="thq-body-small">
+                    © 2024 Dhrupa, Devansh,Het
+                  </span>
+                </div>
+                <div class="footer-footer-links1">
+                  <span>
+                    <fragment>
+                      <span class="contact-text24 thq-body-small">
+                        Privacy Policy
+                      </span>
+                    </fragment>
+                  </span>
+                  <span>
+                    <fragment>
+                      <span class="contact-text22 thq-body-small">
+                        Terms of Use
+                      </span>
+                    </fragment>
+                  </span>
+                  <span>
+                    <fragment>
+                      <span class="contact-text23 thq-body-small">
+                        Cookies Policy
+                      </span>
+                    </fragment>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
